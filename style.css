@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #4B4237;
+}
+
+h1 {
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tourney', cursive;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    color: rgb(254, 248, 156);
+}
+
+.horizontal-line {
+    border: none;
+    border-top: 5px solid rgb(253, 255, 182);
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.left-column {
+    flex-grow: 1;
+    margin-right: 13px;
+    flex-basis: 50%;
+
+}
+
+.right-column {
+    flex-grow: 1;
+    margin-left: 25px;
+
+    flex-basis: 50%;
+    /* Add any other desired styles for the columns */
+}
+
+.vertical-line {
+    border-left: 2px solid rgb(196, 174, 111);
+    /* Adjust the color and thickness as needed */
+    margin-top: 64px;
+    /* Adjust the height of the line as needed */
+}
+
+h2 {
+    font-family: 'Genos', sans-serif;
+    font-size: 54px;
+    text-transform: uppercase;
+    font-weight: 100px;
+    color: rgb(253, 234, 164);
+
+}
+
+hr {
+    margin-bottom: 30px;
+    width: 250px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+p {
+    text-transform: uppercase;
+    font-family: 'Genos', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: rgb(243, 228, 180);
+
+}
+
+span {
+    color: #ff8604;
+    font-size: 30px;
+    font-weight: bolder;
+}
